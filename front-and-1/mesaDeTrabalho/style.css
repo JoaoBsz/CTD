@@ -1,31 +1,29 @@
-body {
 
-    background-color: #DFD7B9;
 
+.baner {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url("https://wallpaperaccess.com/full/3971885.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 720px;
+    width: 1280px;
+    padding: 28px;
+    border: solid #e6ecec;
+    border-radius: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+   
 }
 
-h1 {
 
-    color: #cd8c00;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-.job-title{
+button {
 
-    color: #f5fffa;
-    background-color: #cd8c00;
-
-}
-
-#high {
-
-    color: #cd8c00;
-
-}
-
-ul {
-
-    color: #f5fffa;
-    background-color: #8b6122;
-
-}
+    color: #ffffff;
+    background-color: #14990f;
+    border-radius: 20px;
+    height: 40px;
+    
+} 
