@@ -1,0 +1,43 @@
+img {
+    width: 120px;
+}
+
+body {
+    background-color: #131313;
+}
+
+div {
+    background-color: #9fd2ff;
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+form {
+    padding-bottom: 12px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border-radius: 50px;
+    padding-bottom: 12px;
+
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+button {
+    background-color: #adff2f;
+    margin-bottom: 12px;
+}
+
+.delete {
+    background-color: #ff0000;
+    margin-bottom: 12px;
+}
