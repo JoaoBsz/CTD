@@ -1,0 +1,63 @@
+body {
+    background-color: #f16480;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    background-color: #57e7e7;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #93f5f5;
+    width: 600px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+}
+h1 {
+    color: #e24968;
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+img {
+
+    width: 360px;
+    height: 340px;
+    margin-left: 100px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+fieldset {
+    color: #e6153f ;
+    padding: 12px;
+    text-align: center;
+    width: 500px;
+    border: solid #e74c6b;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin: 0 auto;
+    display: block;
+}
+
+label {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 15px;
+}

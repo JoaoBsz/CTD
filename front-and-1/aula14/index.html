@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <form>
+    
+    <div class="box">
+
+    <h1>Finalizar o pedido</h1>
+    
+    <img src="https://s2.glbimg.com/8QGipHvweOXdi0rq9cmyNyW0eQw=/0x0:1280x854/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/f/z/NC0azsRqaYfFLPbNR1gQ/cheesecake.jpeg">
+    
+    </div>
+
+    <div>
+
+    <fieldset>
+    
+        <legend>INFORMAÇÕES DO CLIENTE</legend>
+
+    <div>
+            <label for="name">Nome:</label>
+            <input class="info" type="text" name="name" id="name">
+    </div>
+
+    <div>
+        <label for="telefone">Telefone:</label>
+        <input class="info" type="text" name="telefone" id="telefone">
+    </div>
+
+    <div>
+        <label for="endereço">Seu endereço:</label>
+        <input class="info" type="text" name="endereço" id="endereço">
+    </div>
+
+    </fieldset>
+
+
+    <fieldset>
+    
+        <legend>ADICIONAL</legend>
+
+    <div>
+        <input type="checkbox" name="adicional">
+        <label for="adicional">Brigadeiro</label>
+        <input type="checkbox" name="adicional">
+        <label for="adicional">Bolo de chocolate</label>
+        <input type="checkbox" name="adicional">
+        <label for="adicional">Cup cake</label>
+
+    </div>
+
+    </fieldset>
+
+    <fieldset>
+    
+        <legend>BEBIDAS COM 10% DE DESCONTO</legend>
+
+    <div>
+        <input type="checkbox" name="adicional">
+        <label for="adicional">Expresso</label>
+        <input type="checkbox" name="adicional">
+        <label for="adicional">Capuccino</label>
+        <input type="checkbox" name="adicional">
+        <label for="adicional">Latte</label>
+
+    </div>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>PAGAMENTO</legend>
+
+    <div>
+        <input type="radio" name="pagamento" value="Crédito">
+        <label for="pagamento"> Crédito</label>
+        <input type="radio" name="pagamento" value="Débito">
+        <label for="pagamento">Débito</label>
+        <input type="radio" name="pagamento" value="Dinheiro">
+        <label for="pagamento">Dinheiro</label>
+    </div>
+
+    <div>
+        <button type="submit">Finalizar o pedido</button>
+        <button class="delete" type="reset">Cancelar</button>
+    </div>
+
+    </fieldset>
+
+    </form>
+
+</body>
+
+</html>
