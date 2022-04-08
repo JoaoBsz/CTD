@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aula 09</title>
+</head>
+<body>
+    <header>
+        <h1>Diario de filmes</h1>
+    </header>
+    <main class="container">     
+        <div class="form">
+            <form id="form" action="submit">
+                <h2>Adicione um filme: </h2>
+                <label class="label-titulo" for="titulo">Titulo</label>
+                <input type="text" name="titulo" id="titulo">
+
+                <label class="label-descricao" for="descricao">Descricao</label>
+                <input type="text" name="descricao" id="descricao">
+
+                <label class="label-url" for="url">Url Image</label>
+                <input type="text" name="url" id="url">
+
+                <button type="submit">Adicionar Imagem</button>
+            </form>
+        </div>
+
+        <div id="container-cards" class="cards">
+
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
