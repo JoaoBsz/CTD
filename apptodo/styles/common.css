@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+:root {
+  --primary: rgba(13,22,38,1);
+  --secondary: rgba(35,56,111,1);
+  --tertiary: rgba(18,180,173,1);
+  --app-grey: #F2F2F2;
+  --sucess: #00dd58;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #F6F6F6;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
