@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-menu {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 30px;
+    top: 0;
+    position: fixed;
+    z-index:50;
+
+}
+
+.main-menu div {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-menu a {
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+
+.conteudo {
+    height: 200px;
+    padding: 10px;
+    padding-top: 130px;
+
+}
+
+.conteudo img {
+    position: sticky;
+    top: -1px;
+    height: 230px;
+    padding-top: 20px;
+    z-index: 1;
+
+}
+
+.conteudo button{
+
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    background-color: lawngreen;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.conteudo h1{
+    position: sticky;
+    top: -1px;
+    padding-left: 50px;
+
+}
+.wpp img {
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+
+
