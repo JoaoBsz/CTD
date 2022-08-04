@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.header {
+  width: 100%;
+  height: 84px;
+  position: fixed;
+  color: #ffffff;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+
+.header .logo-ze-delivery img {
+  width: 80px;
+  padding: 16px;
+  margin-left: 80px;
+}
+
+.header .delivery-address-conteiner {
+  width: 700px;
+  padding: 16px;
+}
+
+.header .delivery-address-conteiner .address {
+  color: #ffc500;
+}
+
+.header .options-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header .options-card svg {
+  width: 24px;
+  height: 24px;
+}
+
+.header .barra-pesquisa {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  font-weight: lighter;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #cccccc;
+  margin: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .barra-pesquisa svg {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.header .barra-pesquisa input {
+  width: 100%;
+  height: 48px;
+  border: none;
+  overflow: hidden;
+  margin-right: 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.header .right-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  right: 100px;
+  margin: 0 auto;
+  padding: 16px 10px;
+}
+
+.header .right-conteiner .pre-checkout {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.header .right-conteiner .pre-checkout .product-amount {
+  width: 19px;
+  height: 19px;
+  font-size: 11px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffc500;
+  position: absolute;
+  right: 90px;
+  top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .right-conteiner .pre-checkout button {
+  width: 85px;
+  height: 48px;
+  outline: none;
+  border-radius: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.header .right-conteiner .pre-checkout img {
+  margin-right: 100px;
+  margin-top: 5px;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

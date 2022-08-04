@@ -1,0 +1,18 @@
+* {
+
+    
+}
+
+.box {
+
+width: 250px;
+height: 250px;
+
+}
+
+.first-box {
+
+    background-color: aquamarine;
+    position: relative;
+    top: 100px
+}

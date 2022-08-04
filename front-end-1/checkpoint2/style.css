@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+.fundo {
+
+    background-image: url("https://wallpapercave.com/wp/GmYC8HQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.cabecalho h1 {
+    
+    background-color: #008fbe;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    margin: 0;
+
+}
+
+.texto {
+
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    padding: 12px;
+}
+
+.video {
+
+  padding-left: calc(50% - 604px / 2);
+
+}
+
+
+.formulario {
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    color: #0b1146;
+    width: 70vw;
+    height: 100vh;
+    background-color: #008fbe;
+    padding: 30px;
+    border-radius: 8px;
+
+
+}
+
+.formulario h2 {
+    
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    padding-left: 12px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+}
+
+.dados {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+input {
+    transition: .3s;
+}
+
+
+.botoes {
+
+    margin: 30px;
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.enviar {
+    background-color: yellowgreen;
+    padding: 8px;
+    border: none;
+}
+
+.delete {
+    background-color: #da3434;
+    border: none;
+}
+
+.fundo-2 {
+    color: #ffffff;
+    background-color: #1a1818;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fundo-2 h3 {
+    margin: 12px;
+    padding: 12px;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.icone img {
+    width: 70px;
+    margin-bottom: 50px;
+}
+
+.icone h3 {
+
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0 0 10px;
+    box-sizing: border-box;
+
+}
+
+input:hover {
+
+    transform: scale(1.01);
+}
+

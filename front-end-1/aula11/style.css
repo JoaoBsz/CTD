@@ -1,0 +1,49 @@
+body {
+
+    height: 4000px;
+
+}
+
+div {
+
+    text-align: center;
+    background-color: aliceblue;  
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+    box-sizing: border-box;
+
+  }
+
+.box-first {
+
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+    background-color: aquamarine;
+    position: relative;    
+
+}
+
+.box-second {
+
+    height: 250px;
+    width: 250px;
+    padding: 65px;
+    background-color: blueviolet;
+    position: fixed;
+    left: calc(50% - 250px / 2);
+
+
+}
+
+.box-third {
+
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+    background-color: pink;    
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
