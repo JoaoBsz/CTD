@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21, 20, 26);
+}
+
+form {
+    max-width: 508px;
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border-style: groove;
+    border-color: rgb(26, 25, 25);
+}
+
+.btn-enviar {
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(80, 168, 104);
+}
+
+.btn-reset {
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(164, 57, 51);
+}
